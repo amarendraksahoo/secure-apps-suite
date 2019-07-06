@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #282c34;
+    /* min-height: 5vh; */
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: cadetblue;
+    padding: 10px;
+}
+
+.navbar .logo {
+    display: grid;
+    justify-items: right;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: grey;
+    font-size: 80%;
+}
+
+.navbar a:hover, .navbar a.selected {
+    color: white;
+}
+
+.navbar li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+
+.navbar ul {
+    margin: 0px;
+}
