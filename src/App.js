@@ -7,6 +7,7 @@ import Post from './components/Post';
 import Demo from './components/Demo';
 import { HashRouter } from 'react-router-dom/cjs/react-router-dom.min';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
             </div>
           </HashRouter>
         </div>
+        <Footer />
       </div>
     );
   }

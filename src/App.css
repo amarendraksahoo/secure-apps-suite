@@ -1,20 +1,20 @@
 .App {
   width: 100%;
   margin: auto;
-  background-color: #f5f3ef;
+  /* background-color: #f5f5f5; */
+  font-family: 'Roboto', sans-serif;
 }
 
 .App .body {
   margin: auto;
-  background-color: white;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 768px) {
   .App .body {
     width: 60%;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 767px) {
   .App .body {
     width: 100%;
   }
@@ -22,5 +22,14 @@
 
 .content {
   padding: 40px;
-  min-height: 100vh
+  min-height: 100vh;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 100px;
+}
+
+.footer {
+  padding: 10px;
+  background-color: #59595B;
+  color: white;
+  text-align: right;
 }

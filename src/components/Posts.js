@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Link from './Link';
 
 class Posts extends Component {
     constructor(props) {
@@ -15,8 +16,8 @@ class Posts extends Component {
     render() {
         const listview = this.state.items.map(item => (
             <div key={item.id}>
-                <h4>{item.title}</h4>
-                <p>{item.body}</p>
+            <Link url={item.title} tags={item.body} />
+            <br />
             </div>
         ))
         return (

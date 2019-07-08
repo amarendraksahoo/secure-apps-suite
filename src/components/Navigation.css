@@ -1,18 +1,26 @@
 .navbar {
-    background-color: #282c34;
+    background-color: #2a2e45;
     /* min-height: 5vh; */
     display: grid;
-    grid-template-columns: 4fr 2fr;
+    grid-template-columns: 1fr 14fr;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: cadetblue;
-    padding: 10px;
+    /* color: cadetblue; */
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 0.19);
 }
 
 .navbar .logo {
     display: grid;
-    justify-items: right;
+    margin-right: 5vh;
+    margin-left: 5vh;
+    font-size: 32px;
+    font-weight: 800;
 }
 
 .navbar a {
@@ -28,10 +36,11 @@
 .navbar li {
     display: inline;
     list-style-type: none;
-    padding-left: 20px;
+    padding-right: 20px;
 }
 
 
 .navbar ul {
     margin: 0px;
+    padding: 0;
 }
