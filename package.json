@@ -2,7 +2,7 @@
   "name": "boilerplate",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://app-secure.ioak.org",
+  "homepage": "https://app-secure.ioak.org",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
